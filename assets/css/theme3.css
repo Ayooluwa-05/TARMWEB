@@ -1,10 +1,9 @@
 .cld-main{
   /* width: 500px; */
   height: 480px;
-  background-color: #c1c1c1;
 }
 .cld-main a{
-  color: #c330a5;
+  color: #7B00FF;
   font-weight: 500;
 }
   .cld-datetime{
@@ -71,7 +70,7 @@
     cursor: pointer;
   }
   .cld-day.today{
-    border: 1px solid #c330a5;
+    border: 1px solid #7B00FF;
   }
   .cld-day.disableDay{
     opacity: 0.5;
