@@ -1,10 +1,11 @@
 .cld-main{
   /* width: 500px; */
   height: 480px;
+  background-color: #fff;
 }
 .cld-main a{
   color: #c330a5;
-  font-weight: bold;
+  font-weight: 500;
 }
   .cld-datetime{
     position: relative;
