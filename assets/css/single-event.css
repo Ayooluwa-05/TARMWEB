@@ -162,6 +162,7 @@ font-size: 18px;
     height: 320px;
     width: 318px;
   }
+  
   .text-display p{
       color: #979797;
       font-size: 15px;
@@ -169,13 +170,13 @@ font-size: 18px;
   }
 .page-container{
     display: grid;
-    grid-template-columns: 3fr 2fr;
+    grid-template-columns: 3fr 3fr;
     margin: 1rem 2rem;
   }
-  #calendar {
-    /* background-color: aqua; */
-    max-width: 700px;
-    /* margin: 50px auto; */
+  #caleandar{
+      /* width: 500px;
+      height: 300px; */
+      background-color: yellow;
   }
 
 /* Footer */

@@ -64,11 +64,17 @@
     .my-3{
         margin:0rem;
     }
+    .card{
+        padding: 0rem;
+    }
     .cal-container{
         margin: 1rem 0rem;
     }
     .calendar{
         padding-bottom: 1rem;
+    }
+    .card-box{
+        width: 297px;
     }
     .my-1 h2{
         text-align: center;
