@@ -1,6 +1,3 @@
-/* @import url('https://fonts.googleapis.com/css?family=Raleway'); */
-@import url('./calendar.css');
-
 * {
     box-sizing: border-box;
     margin:0;
@@ -58,7 +55,7 @@ font-size: 18px;
   }
 #showcase{
    background:  linear-gradient(106.61deg, rgba(57, 77, 167, 0.1) 0.51%, 
-   rgba(57, 77, 167, 0.1) 100%), url(/assets/images/backround-upcoming.png) no-repeat center center/cover;
+   rgba(57, 77, 167, 0.1) 100%), url(/assets/images/events-header.jpg) no-repeat center center/cover;
   }
   
   #showcase .showcase-container{
@@ -109,7 +106,6 @@ select, option{
 .event-search-container{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    /* display: flex; */
     padding: 1rem 2rem;
 }
 .button-adjust{
@@ -171,12 +167,12 @@ margin-right: 1rem;;
 .text-display{
     display: flex;
 }
-.text-display img{
+.text-display i{
     width: 15px;
     height: 15px;
 }
-.card{
-    padding: 1rem;
+.fa, .fas {
+    font-weight: 600;
 }
 .card-box{
     background: #F8F8F8;
@@ -201,6 +197,7 @@ margin-right: 1rem;;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 1rem;
+    padding-right: 1rem;
   }
   .card-border{
     background: #F8F8F8;
@@ -230,7 +227,7 @@ margin-right: 1rem;;
       font-size: 15px;
   }
   .text-display p{
-    color: #979797;
+    color: #232323;
     font-size: 13px;
     font-weight: 500;
     padding-left: 5px;
@@ -241,7 +238,7 @@ margin-right: 1rem;;
     }
 .page-container{
     display: grid;
-    grid-template-columns: 4fr 2fr;
+    grid-template-columns: 4fr 3fr;
     margin: 1rem 2rem;
   }
  /* Footer */

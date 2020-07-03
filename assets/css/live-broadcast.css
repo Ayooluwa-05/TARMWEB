@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Raleway');
+/* @import url('https://fonts.googleapis.com/css?family=Raleway'); */
 
 * {
     box-sizing: border-box;
@@ -58,9 +58,8 @@ font-size: 18px;
   }
 #showcase{
    background:  linear-gradient(106.61deg, rgba(57, 77, 167, 0.1) 0.51%, 
-   rgba(57, 77, 167, 0.1) 100%), url(/assets/images/bg-image.png) no-repeat center center/cover;
+   rgba(57, 77, 167, 0.1) 100%), url(/assets/images/live-bc-header.jpg) no-repeat center center/cover;
   }
-  
   #showcase .showcase-container{
     display: flex;
     justify-content: center;

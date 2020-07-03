@@ -1,5 +1,3 @@
-/* @import url('https://fonts.googleapis.com/css?family=Raleway'); */
-/* @import url('./calendar.css'); */
 
 * {
     box-sizing: border-box;
@@ -58,7 +56,7 @@ font-size: 18px;
   }
 #showcase{
    background:  linear-gradient(106.61deg, rgba(57, 77, 167, 0.1) 0.51%, 
-   rgba(57, 77, 167, 0.1) 100%), url(/assets/images/single-events.png) no-repeat center center/cover;
+   rgba(57, 77, 167, 0.1) 100%), url(/assets/images/single-event-header.jpg) no-repeat center center/cover;
   }
   
   #showcase .showcase-container{
@@ -170,13 +168,8 @@ font-size: 18px;
   }
 .page-container{
     display: grid;
-    grid-template-columns: 3fr 3fr;
+    grid-template-columns: 3fr 2fr;
     margin: 1rem 2rem;
-  }
-  #caleandar{
-      /* width: 500px;
-      height: 300px; */
-      /* background-color: yellow; */
   }
 
 /* Footer */

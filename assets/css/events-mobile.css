@@ -28,8 +28,11 @@
     display: grid;
     grid-template-columns: 1fr 1fr;  
 }
+.card-box{
+    padding-top: 2rem;
+}
 .img-adj {
-    width: 310px;
+    width: 333px;
     height: 150px;
 }
 .footer .footer-content{
@@ -40,6 +43,16 @@
 .footer-logos{
     justify-content: center;
 }
+/* @media screen and (device-aspect-ratio: 1280/720){
+    .page-container{
+        display: flex;
+        flex-direction: column;
+    }
+    .articles-container{
+        display: grid;
+        grid-template-columns: 1fr 1fr;  
+    }
+} */
 @media(max-width: 500px) {
     #navbar{
         display: flex;
@@ -77,8 +90,12 @@
         display: grid;
         grid-template-columns: 1fr;  
     }
+    .articles-container .card{
+        padding-left: 1rem;
+    }
     .card-box{
-        width: 270px;
+        width: 297px;
+        padding-top: 2rem;
     }
     .my-3{
         margin: 0rem;
