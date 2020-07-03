@@ -82,12 +82,17 @@ font-size: 18px;
     color: #ffffff;
     font-weight: bold;
 }
-.text-display1 input[type="text"], .text-display1 select{
+.text-display1 input[type="text"]{
     width: 70%;
     border-radius: 5px;
     padding: 1rem .5rem;
     height: 20px;
 }
+.text-display1 select{
+    width: 70%;
+    border-radius: 5px;
+    padding: 1rem .5rem;
+    }
 .text-display1 input::placeholder{
     font-size: 15px;
     color: #000000;
@@ -97,6 +102,7 @@ select, option{
     font-size: 15px;
     color: #000000;
     font-weight: 300;
+    height: 20px;
 }
 #event-search{
    margin: 2rem 2rem;
